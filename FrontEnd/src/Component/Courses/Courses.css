@@ -1,0 +1,33 @@
+.head{
+    background-color: green;
+    color: white;
+    padding:20px;
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+.left{
+    width:30rem;
+}
+.right{
+    width: 60rem;
+}
+.card-body{
+    width: 10rem;
+}
+.booklist1 {
+    /* width: 90vw; */
+    /* max-width: 1170px; */
+    display: grid;
+    gap: 0.5rem;
+    margin: auto;
+}
+@media screen and (min-width:800px) {
+    .booklist1 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}

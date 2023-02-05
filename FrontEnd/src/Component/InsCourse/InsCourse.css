@@ -1,0 +1,16 @@
+.button1{
+    display: flex;
+    justify-content: center;
+}
+.Link{
+    text-decoration: none !important;
+    color:black !important;
+}
+.inscourse{
+    align-items: center;
+    box-shadow: 0 0 10px gray;
+    width: 10rem;
+}
+.incourse {
+    text-align: center;
+}
